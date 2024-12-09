@@ -1,0 +1,59 @@
+.banner {
+    background-image: url(../../../../../assets/images/bg.png);
+    height: 550px;
+
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+
+    .banner-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: var(--black-color);
+        h1 {
+            font-family: "Playfair Display", serif !important;
+            font-size: 75px;
+            line-height: 80px;
+        }
+        p {
+            font-size: 21px;
+            padding: 0 100px;
+            margin: 30px 0;
+        }
+    }
+}
+@media (max-width: 1060px) {
+    .banner-content {
+        h1 {
+            font-size: 65px !important;
+        }
+        p {
+            font-size: 17px !important;
+            padding: 0 !important;
+        }
+    }
+}
+@media (max-width: 774px) {
+    .banner-content {
+        h1 {
+            font-size: 57px !important;
+        }
+        p {
+            font-size: 15px !important;
+            padding: 0 !important;
+        }
+    }
+}
+@media (max-width: 774px) {
+    .banner-content {
+        h1 {
+            font-size: 50px !important;
+        }
+        p {
+            font-size: 13px !important;
+        }
+    }
+}

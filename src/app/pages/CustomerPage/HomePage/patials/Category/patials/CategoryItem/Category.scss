@@ -1,0 +1,59 @@
+.cateItem {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 20px;
+    font-weight: 600;
+    height: 300px;
+
+    &:hover {
+        background-color: var(--bg-icon-color);
+        transform: translateY(10px);
+        transition: 0.5s;
+    }
+    .cate-icon {
+        background-color: #f0eded;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        border-radius: 50%;
+        overflow: hidden;
+        img {
+            height: 100%;
+        }
+    }
+    .des {
+        color: var(--text2-color);
+        font-weight: 400;
+        font-size: 1.2rem;
+        height: 30%;
+    }
+    a {
+        color: var(--red-color);
+    }
+}
+
+.categories-container {
+    display: flex;
+    flex-direction: column;
+    // width: 100%;
+    .categoriesList {
+        height: 100%;
+        padding: 30px 0;
+        display: flex;
+        transition: transform 0.5s ease;
+        will-change: transform;
+        overflow: hidden;
+
+        .react-multi-carousel-item {
+            padding: 0 10px;
+        }
+    }
+
+    .carousel-controls {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+}

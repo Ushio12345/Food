@@ -1,0 +1,107 @@
+.blog {
+    .blog-item {
+        background-color: #ffffff;
+        border-radius: 10px;
+        overflow: hidden;
+        &:hover .blog-img {
+            transform: scale(1.1);
+            transition: 0.5s;
+        }
+    }
+    .blog-content {
+        padding: 20px;
+    }
+    h4 {
+        margin: 10px 0;
+        color: var(--black-2-color);
+        font-weight: 500;
+        font-size: 20px;
+    }
+    p {
+        color: var(--black-2-color);
+        font-size: 16px !important;
+    }
+}
+@media (max-width: 1063px) {
+    .blog {
+        h4 {
+            font-size: 14px !important;
+        }
+        p {
+            font-size: 12px !important;
+        }
+    }
+}
+@media (max-width: 948px) {
+    .blog {
+        h4 {
+            font-size: 12px !important;
+        }
+        p {
+            font-size: 11px !important;
+        }
+        button {
+            width: 100px !important;
+            font-size: 10px !important;
+            height: 30px !important;
+        }
+    }
+}
+@media (max-width: 800px) {
+    .blog {
+        h4 {
+            font-size: 10px !important;
+        }
+        p {
+            font-size: 9px !important;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .blog {
+        h4 {
+            font-size: 20px !important;
+        }
+        p {
+            font-size: 13px !important;
+        }
+    }
+}
+@media (max-width: 521px) {
+    .blog {
+        h4 {
+            font-size: 15px !important;
+        }
+        p {
+            font-size: 12px !important;
+        }
+        .blog-content {
+            padding: 10px !important;
+        }
+    }
+}
+@media (max-width: 441px) {
+    .blog {
+        h4 {
+            font-size: 13px !important;
+        }
+        p {
+            font-size: 10px !important;
+        }
+    }
+}
+@media (max-width: 395px) {
+    .blog {
+        h4 {
+            font-size: 11px !important;
+        }
+        p {
+            font-size: 9px !important;
+        }
+        button {
+            width: 120px !important;
+            font-size: 10px !important;
+            height: 40px !important;
+        }
+    }
+}

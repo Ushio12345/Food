@@ -1,0 +1,26 @@
+.ship {
+    .icon {
+        background-color: var(--red-color);
+        color: var(--white-color);
+        margin-right: 20px;
+    }
+}
+@media (max-width: 821px) {
+    .ship {
+        h2 {
+            font-size: 30px !important;
+            line-height: 40px;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .ship {
+        .ship-right {
+            margin: 0;
+        }
+        .ship-left-item-2 {
+            flex-direction: row;
+            align-items: center;
+        }
+    }
+}

@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+:root {
+    --body-large-400-font-family: "DM Sans", "Playfair Display", Helvetica;
+    --body-large-400-font-size: 18px;
+    --body-large-400-font-style: normal;
+    --body-large-400-font-weight: 400;
+    --body-large-400-letter-spacing: 0px;
+    --body-large-400-line-height: 28px;
+    --body-large-500-font-family: "DM Sans", "Playfair Display", Helvetica;
+    --body-large-500-font-size: 18px;
+    --body-large-500-font-style: normal;
+    --body-large-500-font-weight: 500;
+    --body-large-500-letter-spacing: 0px;
+    --body-large-500-line-height: 28px;
+    --body-medium-400-font-family: "DM Sans", "Playfair Display", Helvetica;
+    --body-medium-400-font-size: 16px;
+    --body-medium-400-font-style: normal;
+    --body-medium-400-font-weight: 400;
+    --body-medium-400-letter-spacing: 0px;
+    --body-medium-400-line-height: 24px;
+    --body-medium-500-font-family: "DM Sans", "Playfair Display", Helvetica;
+    --body-medium-500-font-size: 16px;
+    --body-medium-500-font-style: normal;
+    --body-medium-500-font-weight: 500;
+    --body-medium-500-letter-spacing: 0px;
+    --body-medium-500-line-height: 24px;
+    --body-small-400-font-family: "DM Sans", "Playfair Display", Helvetica;
+    --body-small-400-font-size: 14px;
+    --body-small-400-font-style: normal;
+    --body-small-400-font-weight: 400;
+    --body-small-400-letter-spacing: 0px;
+    --body-small-400-line-height: 20px;
+    --body-small-500-font-family: "DM Sans", "Playfair Display", Helvetica;
+    --body-small-500-font-size: 14px;
+    --body-small-500-font-style: normal;
+    --body-small-500-font-weight: 500;
+    --body-small-500-letter-spacing: 0px;
+    --body-small-500-line-height: 20px;
+    --body-XL-400-font-family: "DM Sans", "Playfair Display", Helvetica;
+    --body-XL-400-font-size: 20px;
+    --body-XL-400-font-style: normal;
+    --body-XL-400-font-weight: 400;
+    --body-XL-400-letter-spacing: 0px;
+    --body-XL-400-line-height: 32px;
+    --body-XL-500-font-family: "DM Sans", "Playfair Display", Helvetica;
+    --body-XL-500-font-size: 20px;
+    --body-XL-500-font-style: normal;
+    --body-XL-500-font-weight: 500;
+    --body-XL-500-letter-spacing: 0px;
+    --body-XL-500-line-height: 32px;
+    --body-XS-400-font-family: "DM Sans", "Playfair Display", Helvetica;
+    --body-XS-400-font-size: 12px;
+    --body-XS-400-font-style: normal;
+    --body-XS-400-font-weight: 400;
+    --body-XS-400-letter-spacing: 0px;
+    --body-XS-400-line-height: 18px;
+    --body-XS-500-font-family: "DM Sans", "Playfair Display", Helvetica;
+    --body-XS-500-font-size: 12px;
+    --body-XS-500-font-style: normal;
+    --body-XS-500-font-weight: 500;
+    --body-XS-500-letter-spacing: 0px;
+    --body-XS-500-line-height: 18px;
+    --button-button-font-family: "DM Sans", "Playfair Display", Helvetica;
+    --button-button-font-size: 16px;
+    --button-button-font-style: normal;
+    --button-button-font-weight: 600;
+    --button-button-letter-spacing: 0px;
+    --button-button-line-height: 24px;
+    --button-CAPTION-font-family: "DM Sans", "Playfair Display", Helvetica;
+    --button-CAPTION-font-size: 14px;
+    --button-CAPTION-font-style: normal;
+    --button-CAPTION-font-weight: 400;
+    --button-CAPTION-letter-spacing: 0.42px;
+    --button-CAPTION-line-height: 24px;
+    --danger-100: rgba(249, 220, 220, 1);
+    --danger-200: rgba(243, 185, 185, 1);
+    --danger-300: rgba(236, 151, 151, 1);
+    --danger-400: rgba(230, 116, 116, 1);
+    --danger-50: rgba(252, 238, 238, 1);
+    --danger-500: rgba(224, 81, 81, 1);
+    --danger-600: rgba(179, 65, 65, 1);
+    --danger-700: rgba(134, 49, 49, 1);
+    --danger-800: rgba(90, 32, 32, 1);
+    --danger-900: rgba(45, 16, 16, 1);
+    --display-01-font-family: "DM Sans", "Playfair Display", Helvetica;
+    --display-01-font-size: 56px;
+    --display-01-font-style: normal;
+    --display-01-font-weight: 500;
+    --display-01-letter-spacing: 0px;
+    --display-01-line-height: 64px;
+    --display-02-font-family: "DM Sans", "Playfair Display", Helvetica;
+    --display-02-font-size: 48px;
+    --display-02-font-style: normal;
+    --display-02-font-weight: 500;
+    --display-02-letter-spacing: 0px;
+    --display-02-line-height: 56px;
+    --employer-logo: 0px 0px 24px 0px rgba(0, 0, 0, 0.2);
+    --gray-100: rgba(228, 229, 232, 1);
+    --gray-200: rgba(200, 204, 209, 1);
+    --gray-300: rgba(173, 178, 186, 1);
+    --gray-400: rgba(145, 153, 163, 1);
+    --gray-50: rgba(241, 242, 244, 1);
+    --gray-500: rgba(118, 127, 140, 1);
+    --gray-600: rgba(94, 102, 112, 1);
+    --gray-700: rgba(71, 76, 84, 1);
+    --gray-800: rgba(47, 51, 56, 1);
+    --gray-900: rgba(24, 25, 28, 1);
+    --graywhite: rgba(255, 255, 255, 1);
+    --heading-01-font-family: "DM Sans", "Playfair Display", Helvetica;
+    --heading-01-font-size: 40px;
+    --heading-01-font-style: normal;
+    --heading-01-font-weight: 500;
+    --heading-01-letter-spacing: 0px;
+    --heading-01-line-height: 48px;
+    --heading-02-font-family: "DM Sans", "Playfair Display", Helvetica;
+    --heading-02-font-size: 36px;
+    --heading-02-font-style: normal;
+    --heading-02-font-weight: 500;
+    --heading-02-letter-spacing: 0px;
+    --heading-02-line-height: 44px;
+    --heading-03-font-family: "DM Sans", "Playfair Display", Helvetica;
+    --heading-03-font-size: 32px;
+    --heading-03-font-style: normal;
+    --heading-03-font-weight: 500;
+    --heading-03-letter-spacing: 0px;
+    --heading-03-line-height: 40px;
+    --heading-04-font-family: "DM Sans", "Playfair Display", Helvetica;
+    --heading-04-font-size: 24px;
+    --heading-04-font-style: normal;
+    --heading-04-font-weight: 500;
+    --heading-04-letter-spacing: 0px;
+    --heading-04-line-height: 32px;
+    --hover-shadow-danger: 0px 12px 48px 0px rgba(98, 0, 0, 0.1);
+    --hover-shadow-primary: 0px 12px 48px 0px rgba(0, 44, 109, 0.1);
+    --hover-shadow-success: 0px 12px 48px 0px rgba(15, 74, 0, 0.1);
+    --hover-shadow-warning: 0px 12px 48px 0px rgba(103, 69, 0, 0.1);
+    --primary-100: rgba(206, 224, 245, 1);
+    --primary-200: rgba(157, 193, 235, 1);
+    --primary-300: rgba(108, 163, 224, 1);
+    --primary-400: rgba(59, 132, 214, 1);
+    --primary-50: rgba(231, 240, 250, 1);
+    --primary-500: rgba(10, 101, 204, 1);
+    --primary-600: rgba(8, 81, 163, 1);
+    --primary-700: rgba(6, 61, 122, 1);
+    --primary-800: rgba(4, 40, 82, 1);
+    --primary-900: rgba(2, 20, 41, 1);
+    --search-shadow: 0px 12px 40px 0px rgba(0, 44, 109, 0.04);
+    --success-100: rgba(206, 236, 213, 1);
+    --success-200: rgba(157, 217, 171, 1);
+    --success-300: rgba(109, 198, 128, 1);
+    --success-400: rgb(60, 179, 86);
+    --success-50: rgba(231, 246, 234, 1);
+    --success-500: rgba(11, 160, 44, 1);
+    --success-600: rgba(9, 128, 35, 1);
+    --success-700: rgba(7, 96, 26, 1);
+    --success-800: rgba(4, 64, 18, 1);
+    --success-900: rgba(2, 32, 9, 1);
+    --system-colors-colors-green: rgba(52, 199, 89, 1);
+    --testimonial-card: 0px 12px 80px 0px rgba(0, 44, 109, 0.05);
+    --warning-100: rgba(255, 237, 204, 1);
+    --warning-200: rgba(255, 219, 153, 1);
+    --warning-300: rgba(255, 201, 102, 1);
+    --warning-400: rgba(255, 183, 51, 1);
+    --warning-50: rgba(255, 246, 230, 1);
+    --warning-500: rgba(255, 165, 0, 1);
+    --warning-600: rgba(204, 132, 0, 1);
+    --warning-700: rgba(153, 99, 0, 1);
+    --warning-800: rgba(102, 66, 0, 1);
+    --warning-900: rgba(51, 33, 0, 1);
+    --white-000: #fff;
+
+    //Default layout
+    //   --font-family: TikTokFont;
+    //   --default-layout-height: 73px;
+    --default-layout-weight: 1200px;
+    --default-layout-height-header: 73px;
+    --default-layout-horizontal-spacer: 24px;
+
+    // Các biến màu sắc khác...
+
+    --text-color: #2c2f24; // Màu chữ đen chính
+    --black-color: #474747; // Màu đen
+    --white-color: #f9f9f7; // Màu trắng chữ chính
+    --red-color: #ad343e; // Màu đỏ
+    --black-2-color: #182226; // Màu đen 2, màu đen viền button
+    --bg-icon-color: #dbdfd0; // Màu nền icon, màu nền button xanh
+    --text2-color: #414536; // Màu chữ thứ 2 màu các chữ phụ
+    --black2-color: #182226;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+    display: block;
+}
+html {
+    font-size: 62.5%;
+}
+body,
+html {
+    overflow-x: hidden;
+}
+
+//scollbar css
+
+html ::-webkit-scrollbar {
+    border-radius: 0px;
+    width: 8px;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+html *::-webkit-scrollbar {
+    border-radius: 0;
+    width: 8px;
+}
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(22, 24, 35, 0.06);
+}
+
+html *::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(22, 24, 35, 0.06);
+}
+
+html ::-webkit-scrollbar-track {
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+html *::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+}
+body {
+    font-family: "DM Sans";
+    background-color: #ffffff;
+    font-size: 15px;
+}
+.layout {
+    width: 80%;
+    margin: 0 auto;
+    padding: 90px 0;
+}
+
+.layout-none {
+    padding: 90px 0;
+}
+.layout-not-padding {
+    width: 80%;
+    margin: 0 auto;
+}
+@media (max-width: 786px) {
+    .layout,
+    .layout-not-padding {
+        width: 90%;
+    }
+}
+p {
+    color: var(--text2-color);
+    font-size: 16px;
+}
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-space {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Playfair", serif;
+}
+h4 {
+    color: var(--white-color);
+    font-weight: 600;
+    font-size: 18px;
+}
+.bg-color {
+    background-color: #f9f9f7;
+    // width: 100vw;
+    // position: relative;
+    // left: 50%;
+    // transform: translateX(-50%);
+}
+h1 {
+    font-size: 60px !important;
+}
+h2 {
+    line-height: 60.5px;
+    font-size: 55px !important;
+}
+h3 {
+    color: var(--black2-color);
+    font-weight: 700;
+    font-size: 24px;
+}
+@media (max-width: 1287px) {
+    h2 {
+        font-size: 45px !important;
+    }
+    p {
+        font-size: 13px;
+    }
+}
+@media (max-width: 1020px) {
+    h2 {
+        font-size: 38px !important;
+    }
+}
+@media (max-width: 990px) {
+    h2 {
+        font-size: 32px !important;
+    }
+}
+@media (max-width: 850px) {
+    h2 {
+        font-size: 35px !important;
+    }
+}
